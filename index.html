@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resto website</title>
+    <link rel="stylesheet" href="./css files/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  
+</head>
+<body>
+    
+<!--  header section starts -->
+
+<header>
+    <a href="#" class="logo"><i class="fas fa-utensils"></i>resto.</a>
+
+    <nav class="navbar">
+        <a class="active" href="#home">home</a>
+        <a href="#dishes">dishes</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#order">order</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fa fa-bars" id="menu-bars"></i>
+        <i class="fa fa-search" id="search-icon"></i>
+        <a href="#" class="fa fa-heart"></a>
+        <a href="#" class="fa fa-shopping-cart"></a>
+    </div>
+</header>
+
+<!-- header section ends -->
+
+<!-- search form -->
+
+<form action="" id="search-form">
+    <input type="search" name="" id="search-box" placeholder="search here...">
+    <label for="search-box" class="fa fa-search"></label>
+    <i class="fa fa-times" id="close"></i>
+</form>
+
+<!-- search ends -->
+
+<!-- home section starts -->
+
+<section class="home" id="home">
+    <div class="swiper mySwiper home-slider">
+        <div class="swiper-wrapper wrapper">
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>our special dish</span>
+                    <h3>spicy noodles</h3>
+                    <p>spicy noodles are loaded with chili-garlic flavor, quickly stir fried in a vibrant, fiery Asian style sauce, so quick and easy to make.</p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="image">
+                    <img src="./images/noodle.avif"/>
+                </div>
+            </div>
+
+             <div class="swiper-slide slide">
+                <div class="content">
+                    <span>our special dish</span>
+                    <h3>fried chicken</h3>
+                    <p>A quick dredge of buttermilk and seasoned flour is the secret to this perfectly moist, crunchy Fried Chicken.</p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="image">
+                    <img src="./images/chicken.jpg"  alt=""/>
+                </div>
+            </div> 
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>our special dish</span>
+                    <h3>pizza</h3>
+                    <p>pizza recipe is easy to make with restaurant quality dough that bakes up to golden perfection! Top it with pizza sauce.</p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="image">
+                    <img src="./images/pizzas.jpg" alt=""/>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+
+<!-- home section ends -->
+
+<!-- dishes section starts -->
+<section class="dishes" id="dishes">
+    <h3 class="sub-heading"> our dishes </h3>
+    <h1 class="heading"> popular dishes </h1>
+    <div class="box-container">
+        <div class="box">
+            <a href="#" class="fa fa-heart"></a>
+            <a href="#" class="fa fa-eye"></a>
+            <img src="./images/dish2.jpg"  height="200px" width="200px"/>
+            <h3>chicken burger</h3>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+            </div>
+            <span>&#8377;300</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fa fa-heart"></a>
+            <a href="#" class="fa fa-eye"></a>
+            <img src="./images/strawberrydessert.jpg" height="200px" width="200px"/>
+            <h3>straw berry dessert</h3>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+            </div>
+            <span>&#8377;350</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fa fa-heart"></a>
+            <a href="#" class="fa fa-eye"></a>
+            <img src="./images/dish3.jpg"   height="200px" width="200px"/>
+            <h3>bacon burger</h3>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+            </div>
+            <span>&#8377;350</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fa fa-heart"></a>
+            <a href="#" class="fa fa-eye"></a>
+            <img src="./images/french.avif"  height="200px" width="200px"/>
+            <h3>french fries</h3>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+            </div>
+            <span>&#8377;290</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fa fa-heart"></a>
+            <a href="#" class="fa fa-eye"></a>
+            <img src="./images/dish5.jpg"  height="200px" width="200px"/>
+            <h3>cheese paneer</h3>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+            </div>
+            <span>&#8377;550</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fa fa-heart"></a>
+            <a href="#" class="fa fa-eye"></a>
+            <img src="./images/dish6.jpg" height="200px" width="200px"/>
+            <h3>takoyaki</h3>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+            </div>
+            <span>&#8377;250</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+    </div>
+</section>
+
+<!-- <dishes section ends -->
+
+<!-- about setion starts -->
+
+<section class="about" id="about">
+    <h3 class="sub-heading"> about us </h3>
+    <h1 class="heading"> why choose us? </h1>
+    <div class="row">
+        <div class="image">
+            <img src="./images/about1.jpg" alt="">
+        </div>
+
+
+        <div class="content">
+            <h3>best food in the country</h3>
+            <p>A hamburger paragraph is a graphic organizers that illustrates the key parts of paragraphs or other writings. It outlines the main points of various writings such as reports and essays to ensure that the writer follows the correct format and information hierarchy. Educators use hamburger graphic organizers to help students understand how to convert their ideas into organized text. With its help, most students learn to share their concepts with cohesive paragraphs and better understand paragraph writing structure.</p>
+            <p>Here are some of the most commonly used hamburger paragraph templates from EdrawMax's templates community. The purpose of these templates is to help students understand the concept of writing structures and idea organization. A hamburger graphic organizer makes it easier to visually represent the relationship between information in any paragraph or report. Our paragraph hamburger templates examples will help you better understand hamburger format writing. Check out these examples and pick a suitable template for your writing assignment.
+
+            </p>
+            <div class="icons-container">
+                <div class="icons">
+                    <i class="fas fa-shipping-fast"></i>
+                    <span>free delivery</span>
+                </div>
+
+                <div class="icons">
+                    <i class="fa-solid fa-dollar-sign"></i>
+                    <span>easy payments</span>
+                </div>
+
+                <div class="icons">
+                    <i class="fa-solid fa-headset"></i>
+                    <span>24/7 services</span>
+                </div>
+            </div>
+            <a href="#" class="btn">learn more</a>
+        </div>
+    </div>
+</section>
+
+<!-- aboutsection ends -->
+
+<!-- menu section starts -->
+
+<section class="menu" id="menu">
+    <h3 class="sub-heading"> our menu </h3>
+    <h1 class="heading"> today's speciality </h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="./images/biryani.avif" alt="">
+                <a href="#" class="fa fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+                </div>
+                <h3>chicken biryani</h3>
+                <p>Chicken biryani is a delicious Indian rice dish that's typically reserved for special occasions.</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">&#8377;300</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="./images/chickenkabab.avif" alt="">
+                <a href="#" class="fa fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+                </div>
+                <h3>chicken kabab</h3>
+                <p>chicken kabab is a piece of food,mostly meat grilled over charcoal fire.</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">&#8377;450</span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="./images/grilledmeat.avif" alt="">
+                <a href="#" class="fa fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+                </div>
+                <h3>grilled meat</h3>
+                <p>The grilled aroma of this steak is what makes this dish special. </p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">&#8377;399</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="./images/paneerbuttermasala.avif" alt="">
+                <a href="#" class="fa fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+                </div>
+                <h3>paneer butter masala</h3>
+                <p>paneer butter masala is a curry lover's dream.soft paneer dunked in a creamy.</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">&#8377;300</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="./images/rumalipaneer.avif" alt="">
+                <a href="#" class="fa fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+                </div>
+                <h3>rumali roti & paneer curry </h3>
+                <p>If there’s one flatbread in India, which is as popular as the Naan, it is the Rumali Roti.</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">&#8377;350</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="./images/strawberry.jpg" alt="">
+                <a href="#" class="fa fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+                </div>
+                <h3>strawberry ice cream</h3>
+                <p>strawberry ice cream is egg-free and easy to make with mashed fresh strawberries fruit.</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">&#8377;280</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="./images/chocolate.jpg" alt="">
+                <a href="#" class="fa fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+                </div>
+                <h3>chocolate ice cream</h3>
+                <p>Chocolate ice cream is ice cream with natural or artificial chocolate flavoring.</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">&#8377;300</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="./images/sandwich.avif" alt="">
+                <a href="#" class="fa fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+                </div>
+                <h3>sandwich</h3>
+                <p>This vegetarian riff on a classic chicken salad sandwich is satisfying and loaded with flavor.</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">&#8377;150</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="./images/pasta.avif" alt="">
+                <a href="#" class="fa fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+                </div>
+                <h3>spicy pasta</h3>
+                <p>Pasta in spicy sauce is comfort food that is flavorful and delicious.</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">&#8377;250</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- menu section ends -->
+
+<!-- order section starts -->
+
+<section class="order" id="order">
+    <h3 class="sub-heading"> order now </h3>
+    <h1 class="heading"> free and fast </h1>
+    <form action="">
+        <div class="inputBox">
+            <div class="input">
+                <span>your name</span>
+                <input type="text" placeholder="enter your name">
+            </div>
+            <div class="input">
+                <span>your number</span>
+                <input type="number" placeholder="enter your number">
+            </div>
+        </div>
+<div class="inputBox">
+        <div class="input">
+            <span>your order</span>
+            <input type="text" placeholder="enter food name">
+        </div>
+        <div class="input">
+            <span>additional food</span>
+            <input type="text" placeholder="extra with food">
+        </div>
+    </div>
+    <div class="inputBox">
+        <div class="input">
+            <span>how much</span>
+            <input type="number" placeholder="how many orders">
+        </div>
+        <div class="input">
+            <span>date and time</span>
+            <input type="datetime-local">
+        </div>
+    </div>
+    <div class="inputBox">
+        <div class="input">
+            <span>your address</span>
+            <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+        </div>
+
+        <div class="input">
+            <span>your message</span>
+            <textarea name="" placeholder="enter your message" id="" cols="30" rows="10"></textarea>
+        </div>
+    </div>
+
+    <input type="submit" value="order now" class="btn">
+    </form>
+</section>
+
+<!-- order section ends -->
+
+<!-- footer section starts -->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>locations</h3>
+            <a href="#">india</a>
+            <a href="#">japan</a>
+            <a href="#">russia</a>
+            <a href="#">USA</a>
+            <a href="#">france</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">dishes</a>
+            <a href="#">about</a>
+            <a href="#">menu</a>
+            <a href="#">order</a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#">+123-456-7890</a>
+            <a href="#">+111-222-3333</a>
+            <a href="#">abc123@gmail.com</a>
+            <a href="#">abc123@gmail.com</a>
+            <a href="#">mumbai, india - 400104</a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">twitter</a>
+            <a href="#">instagram</a>
+            <a href="#">linkedin</a>
+            <a href="#">pinterest</a>
+        </div>
+    </div>
+    <div class="credit"> copyright @ 2021 by <span>mr.developer</span></div>
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./js files/script.js"></script>
+
+</body>
+</html>
